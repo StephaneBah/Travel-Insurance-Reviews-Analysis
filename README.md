@@ -6,21 +6,25 @@ Ce projet est une application Flask permettant d’analyser le sentiment d’un 
 en utilisant le modèle DistilBERT via l’API HuggingFace.
 
 ### 1. Cloner le dépôt
+
     ```bash
     git clone https://github.com/StephaneBah/Travel-Insurance-Reviews-Analysis.git
     cd Nom_du_projet
 
 ### 2. Créer un environnement virtuel
+
     ```bash
     python -m venv venv
     source venv/bin/activate  # Mac/Linux
     venv\Scripts\activate     # Windows
 
 ### 3. Installation des dependences
+
     ```bash
     pip install -r requirements.txt
 
 ### 4. Lancer l'Application
+
     ```bash
     python app.py
 
@@ -30,5 +34,6 @@ en utilisant le modèle DistilBERT via l’API HuggingFace.
     Remplacez la clé dans app.py
 
 ### 6. Acceder a l'application
+
     ```
     http://127.0.0.1:5000
