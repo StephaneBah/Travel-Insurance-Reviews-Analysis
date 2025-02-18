@@ -1,0 +1,26 @@
+# Ignorer les fichiers de l'environnement local
+.env
+*.env
+
+# Ignorer les fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers générés par l'OS
+.DS_Store
+Thumbs.db
+
+# Ignorer les dossiers de cache de Python
+__pycache__/
+*.pyc
+
+
+# Ignorer les fichiers de secrets, clés API ou autres fichiers sensibles
+*.key
+*.pem
+*.crt
+*.env
+config.json
