@@ -11,17 +11,17 @@ en utilisant le modèle DistilBERT via l’API HuggingFace.
     cd Nom_du_projet
 
 ### 2. Créer un environnement virtuel
-    '''bash
+    ```bash
     python -m venv venv
     source venv/bin/activate  # Mac/Linux
     venv\Scripts\activate     # Windows
 
 ### 3. Installation des dependences
-    '''bash
+    ```bash
     pip install -r requirements.txt
 
 ### 4. Lancer l'Application
-    '''bash
+    ```bash
     python app.py
 
 ### 5. Configuration de l'API HuggingFace
@@ -30,4 +30,5 @@ en utilisant le modèle DistilBERT via l’API HuggingFace.
     Remplacez la clé dans app.py
 
 ### 6. Acceder a l'application
+    ```
     http://127.0.0.1:5000
