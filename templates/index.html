@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse de Sentiment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background-color: #f4f4f9;
+        }
+        
+        form {
+            margin-bottom: 1em;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+        
+        .result {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 1em;
+        }
+        
+        .positive {
+            color: green;
+        }
+        
+        .negative {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Analyse de Sentiment</h1>
+    <form method="POST">
+        <label for="avis">Entrez votre avis :</label>
+        <textarea id="avis" name="avis" required>{{ avis }}</textarea>
+        <br>
+        <button type="submit">Analyser</button>
+    </form>
+
+    {% if sentiment %}
+    <div class="result {% if sentiment == 'POSITIVE' %}positive{% else %}negative{% endif %}">
+        Sentiment détecté : {{ sentiment }}
+    </div>
+    {% endif %}
+</body>
+
+</html>
