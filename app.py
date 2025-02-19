@@ -1,12 +1,15 @@
 from flask import Flask, render_template, request
 from huggingface_hub import InferenceClient
 import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
+# Charger les variables d'environnement à partir du fichier .env
+load_dotenv()
+
 client = InferenceClient(
-    model= os.getenv("HUGGINGFACE_TOKEN"),
-    provider="hf-inference",
+    "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
     api_key=os.getenv("HUGGINGFACE_TOKEN")
 )
 

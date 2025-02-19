@@ -7,33 +7,40 @@ en utilisant le modèle DistilBERT via l’API HuggingFace.
 
 ### 1. Cloner le dépôt
 
-    ```bash
-    git clone https://github.com/StephaneBah/Travel-Insurance-Reviews-Analysis.git
-    cd Nom_du_projet
+```bash
+git clone https://github.com/StephaneBah/Travel-Insurance-Reviews-Analysis.git
+cd Travel-Insurance-Reviews-Analysis
+```
 
 ### 2. Créer un environnement virtuel
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # Mac/Linux
-    venv\Scripts\activate     # Windows
+```bash
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+```
 
-### 3. Installation des dependences
+### 3. Installation des dépendances
 
-    ```bash
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-### 4. Lancer l'Application
+### 4. Configuration de l'API HuggingFace
 
-    ```bash
-    python app.py
+Créez un compte sur [HuggingFace](https://huggingface.co)
+Générez un jeton d'API [ici](https://huggingface.co/settings/tokens)
+Créez un fichier `.env` à la racine du projet et ajoutez la ligne suivante :
+```properties
+HUGGINGFACE_TOKEN = votre_jeton_huggingface
+```
 
-### 5. Configuration de l'API HuggingFace
-    Créez un compte sur https://huggingface.co
-    Générez un jeton d'API ici
-    Remplacez la clé dans app.py
+### 5. Lancer l'Application
 
-### 6. Acceder a l'application
+```bash
+python app.py
+```
 
-    ```
-    http://127.0.0.1:5000
+### 6. Accéder à l'application
+
+[http://127.0.0.1:5000](http://127.0.0.1:5000)
