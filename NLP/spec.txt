@@ -1,0 +1,6 @@
+- "Travel-Insured-International_Custumers_Reviews.csv" est le dataframe obtenu après scrapping avec l'utilisation de BERT pour détecter le sentiment de chaque avis
+- "Travel-Insured-International_Custumers_Reviews-after_preprocessing" là il y a une colonne tokens qui est ajouté
+- "tp_nlp.ipynb": code pour le scrapping, fonction de preprocessing de texte avant envoie à l'API du modèle DistillBERT, fonction de détection de sentiment avec création de colonne sentiment 
+- Les deux autres notebook c'est des propositions de preprocessing du texte (note qu'ils partent juste de la colonne "avis") et des graphes pour le dashboard(des graphes qui pourront être interprèter par le public)
+
+- Maintenant le challenge est de créer un module dans le backend pour pouvoir générer de façon plus automatique le fichier csv, appliquer les fonctions pour avoir les colonnes SENTIMENT et TOKENS qui seront utilisés avec les colonnes RATE, DATE etc pour le dashboard sur l'interface

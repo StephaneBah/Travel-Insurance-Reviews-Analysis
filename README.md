@@ -25,7 +25,9 @@ venv\Scripts\activate     # Windows
 ```bash
 pip install -r requirements.txt
 ```
-
+```bash
+python nltk_download.py
+```
 ### 4. Configuration de l'API HuggingFace
 
 Créez un compte sur [HuggingFace](https://huggingface.co)

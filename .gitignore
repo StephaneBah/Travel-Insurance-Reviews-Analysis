@@ -2,6 +2,9 @@
 .env
 *.env
 
+# Ignorer le venv
+venv/
+
 # Ignorer les fichiers de configuration de l'IDE
 .vscode/
 .idea/
