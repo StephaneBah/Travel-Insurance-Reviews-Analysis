@@ -45,4 +45,6 @@ python app.py
 
 ### 6. Accéder à l'application
 
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
+[http://127.0.0.1:5000/predict](http://127.0.0.1:5000/predict)
+
+[http://127.0.0.1:5000/trend](http://127.0.0.1:5000/trend)
