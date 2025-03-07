@@ -8,6 +8,7 @@ venv/
 # Ignorer les fichiers de configuration de l'IDE
 .vscode/
 .idea/
+NLP/.ipynb_checkpoints/
 
 # Ignorer les fichiers de log
 *.log
@@ -18,6 +19,7 @@ Thumbs.db
 
 # Ignorer les dossiers de cache de Python
 __pycache__/
+.vscode/
 *.pyc
 
 
