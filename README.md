@@ -35,9 +35,12 @@ python nltk_download.py
 
 Créez un compte sur [HuggingFace](https://huggingface.co)
 Générez un jeton d'API [ici](https://huggingface.co/settings/tokens).
-Créez un fichier `.env` à la racine du projet et ajoutez la ligne suivante :
+Créez un fichier `.env` à la racine du projet et ajoutez les lignes suivantes :
 ```properties
 HUGGINGFACE_TOKEN = votre_jeton_huggingface
+```
+```properties
+VUE_APP_API_URL='http://127.0.0.1:5000'
 ```
 
 ### 5. Lancer l'Application
