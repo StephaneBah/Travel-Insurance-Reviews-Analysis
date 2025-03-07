@@ -1,5 +1,7 @@
 # Travel-Insurance-Reviews-Analysis
 
+[Rapports du tp](https://docs.google.com/document/d/1d51phgkRQgJp28k8fqjFmTL8hO4Ngn6P2hlGYEvBv-Y/edit?tab=t.j6kfde2xwfia#heading=h.k806ewgz2ohy)
+
 ## Détection de Sentiment avec Flask et HuggingFace API
 
 Ce projet est une application Flask permettant d’analyser le sentiment d’un texte saisi par l’utilisateur,
