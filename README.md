@@ -34,10 +34,13 @@ python nltk_download.py
 ### 4. Configuration de l'API HuggingFace
 
 Créez un compte sur [HuggingFace](https://huggingface.co)
-Générez un jeton d'API [ici](https://huggingface.co/settings/tokens)
-Créez un fichier `.env` à la racine du projet et ajoutez la ligne suivante :
+Générez un jeton d'API [ici](https://huggingface.co/settings/tokens).
+Créez un fichier `.env` à la racine du projet et ajoutez les lignes suivantes :
 ```properties
 HUGGINGFACE_TOKEN = votre_jeton_huggingface
+```
+```properties
+VUE_APP_API_URL='http://127.0.0.1:5000'
 ```
 
 ### 5. Lancer l'Application
@@ -81,6 +84,6 @@ npm run test:unit
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Actualisation des avis(Non Recommandé- La structure du site scrapé à changer récemment) 
-Pour actualiser les avis, il faut exécuter le notebook Scraping.ipynb puis Preprocessing.ipynb (du dossier **NLP**) en s'assurant avoir installer tous les packages et modules du requirements.txt et nltk_download.py. S'assurer aussi de copier dans le dossier NLP le fichier .env contenant la clé API Hugging Face. 
+## Actualisation des avis(Non Recommandé- La structure du site scrapé a changé récemment) 
+Pour actualiser les avis, il faut exécuter le notebook Scraping.ipynb puis Preprocessing.ipynb (du dossier **NLP**) en s'assurant avoir installer tous les packages et modules du requirements.txt et nltk_download.py. 
 NB: Dans la prochaine version nous allons essayer d'automatiser tout le processus.
